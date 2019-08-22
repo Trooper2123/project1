@@ -1,0 +1,156 @@
+/* Regras Gerais */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: blanchedalmond;
+
+  }
+  
+  /* Banner */
+  
+  .banner {
+    background-image: url("../img/library.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 550px;
+  }
+  
+  .banner-informacoes {
+    padding-top: 20vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 65px;
+    margin: 0;
+    color:rgba(255, 255, 255, 0.87);
+    text-transform: uppercase;
+  }
+  
+  .banner-informacoes p {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .banner-informacoes a {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: burlywood;
+    color: rgb(119, 74, 20);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+  }
+  
+  .banner-informacoes a:hover {
+    background-color: rgb(119, 74, 20);
+    color: burlywood
+  }
+  
+  h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+  }
+
+  h3{
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration:none;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    color: rgb(119, 74, 20);
+    padding: 0,5rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Sobre mim */
+  
+  .sobre-mim,
+  .redes-sociais {
+    max-width: 1028px;
+    margin: 0 auto;
+    padding: 5rem 0 0 0;
+  }
+  
+  .sobre-mim_habilidades {
+    display: flex;
+  }
+  
+  .sobre-mim_habilidades_titulo {
+    max-width: 30rem;
+    margin-right: 2rem;
+  }
+  
+  .sobre-mim_habilidades_titulo p,
+  .sobre-mim_habilidades_item{
+    font-family: 'Vollkorn', serif;
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+.sobre-mim_habilidades_titulo a{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: burlywood;
+    color: rgb(119, 74, 20);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+  .sobre-mim_habilidades_titulo a:hover{
+    background-color: rgb(119, 74, 20);
+    color: burlywood
+}
+
+    
+  
+  /* Redes Sociais */
+  
+  .redes-sociais_item_facebook,
+  .redes-sociais_item_linkedin,
+  .redes-sociais_item_skoob,
+  .redes-sociais_item_github {
+    background-color: burlywood;
+    padding: 2rem;
+    border-radius: 1.5rem;
+  }
+  
+  .redes-sociais_item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .redes-sociais_item {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .redes-sociais_item img {
+    min-width: 1.5 rem;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    text-align: center;
+    margin: 3rem 0;
+    background-color: burlywood;
+    font-family: 'Shadows Into Light', cursive;
+  
+  }
+  
